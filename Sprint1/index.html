@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <header>
+    <h1>Welcome</h1>
+    <p>Created by Shwetha :: Empid</p> 
+  </header>
+
+  <nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/python/">Python</a>
+  </nav>
+
+
+  <video width="320" height="240" controls>
+    <source src="http://www.double.co.nz/video_test/transformers480.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+
+  <p>Image to use:</p>
+  <img id="scream" src="img_the_scream.jpg" alt="The Scream" width="220" height="277">
+
+  <p>Canvas to fill:</p>
+  <canvas id="myCanvas" width="250" height="300" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+  <p><button onclick="myCanvas()">Try it</button></p>
+
+  <script>
+    function myCanvas() {
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      var img = document.getElementById("scream");
+      ctx.drawImage(img, 10, 10);
+    }
+  </script>
+
+  <h1>The section element</h1>
+
+  <section>
+    <h2>WWF History</h2>
+    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+      conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded
+      in 1961.</p>
+  </section>
+
+  <section>
+    <h2>WWF's Symbol</h2>
+    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi
+      that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+  </section>
+
+  <footer>
+    <p>Author: Hege Refsnes</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+  </footer>
+
+</body>
+
+</html>
