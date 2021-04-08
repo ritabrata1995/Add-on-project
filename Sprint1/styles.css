@@ -1,0 +1,20 @@
+.home-heading{
+    background-color: rgb(135, 243, 125);
+    padding: 2%;
+}
+
+.home-nav{
+    text-decoration: none;
+    background-color: beige;
+    font-size: 1.4rem;;
+}
+
+.home-canvas{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.home-footer{
+    background-color: rgb(155, 160, 155);
+    padding: 2%;
+}
